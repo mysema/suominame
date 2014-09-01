@@ -1,4 +1,4 @@
-(defproject tapahtumatieto "0.1.0"
+(defproject suominames "0.1.0"
   :description "Suomi names"
   :url ""
   :license {:name "Eclipse Public License"
