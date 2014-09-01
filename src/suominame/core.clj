@@ -64,7 +64,10 @@
              
            {:error "Invalid parameters, some values missing. Provide not null in all of: sex (m|f), firstname and lastname"}
            )))
- 
+
+  (ANY "*" []
+       (resp/response {:error "There is nothing here for you, sorry."}))
+
 )
 
 (defn wrapper-config
